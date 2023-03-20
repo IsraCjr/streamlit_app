@@ -26,7 +26,7 @@ streamlit.dataframe(my_fruit_list)
 
 #New Section to display fruityvice api response
 streamlit.header("Fruityvice Fruit Advice!")
-streamlit.text(fruityvice_response)
+#streamlit.text(fruityvice_response)
 
 # write your own comment -what does the next line do? 
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
